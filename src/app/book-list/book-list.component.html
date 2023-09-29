@@ -8,7 +8,7 @@
     <ng-container *ngFor="let book of books">
       <mat-card style="width: 30%; display: inline-block; padding: 10px; margin-bottom: 25px; margin-left: 25px; border: 1px solid black;box-shadow: 5px 5px 5px #130f0f;">
         <mat-card-title>
-          <a class="grid-container__ahref blue" (click)="showBookDetails(book.isbn)" style="cursor: pointer; text-decoration: underline; font-size: 16pt;">{{book.title}}</a>
+          <a class="grid-container__ahref blue" (click)="showBookDetails(book.isbn)" style="cursor: pointer; text-decoration: underline;">{{book.title}}</a>
         </mat-card-title> <br />
         <mat-card-content>
           <mat-list>
